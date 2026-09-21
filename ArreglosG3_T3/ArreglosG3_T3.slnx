@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="TextFile1.txt" />
+  </Folder>
   <Project Path="Arreglos.Logica/Arreglos.Logica.csproj" />
   <Project Path="Arreglos.UI.Consola/Arreglos.UI.Consola.csproj" />
 </Solution>

@@ -7,7 +7,12 @@ oMyarreglo.Llenar(1,10);
 oMyarreglo.ToString();
 Console.WriteLine("\nArreglo desordenado");
 Console.WriteLine(oMyarreglo.ToString());
-Console.WriteLine("\nArreglo ordenado");
+
+Console.WriteLine("\nArreglo ordenado Asendente");
 oMyarreglo.Ordenar();
+Console.WriteLine(oMyarreglo.ToString());
+
+Console.WriteLine("\nArreglo ordenado desendente");
+oMyarreglo.Ordenar(false);
 Console.WriteLine(oMyarreglo.ToString());
 Console.ReadKey();
